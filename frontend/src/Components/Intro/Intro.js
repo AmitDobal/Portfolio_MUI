@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Grid,
-  Typography,
-  useTheme,
-  Button,
-  Stack,
-} from "@mui/material";
+import { Box, Grid, Typography, useTheme, Button, Stack } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import CodeIcon from "@mui/icons-material/Code";
@@ -15,13 +8,13 @@ import Vector2 from "../../img/Vector2.png";
 import MyPic from "../../img/MyPic.png";
 import { Image1, Image2, Image3 } from "./Styled";
 
-const Home = () => {
+const Intro = () => {
   const theme = useTheme();
   console.log(theme);
   return (
     <Box>
       <Grid container>
-        <Grid bgcolor={"gray"} item xs={12} sm={6}>
+        <Grid item xs={12} sm={6}>
           <Typography variant="h3">Hi! I am</Typography>
           <Typography variant="h3">Amit Dobal</Typography>
           <Typography>
@@ -38,7 +31,7 @@ const Home = () => {
           </Stack>
         </Grid>
 
-        <Grid bgcolor={"pink"} item xs={12} sm={6}>
+        <Grid item xs={12} sm={6}>
           <Box
             sx={{
               margin: 0,
@@ -51,8 +44,7 @@ const Home = () => {
         </Grid>
       </Grid>
     </Box>
-
   );
 };
 
-export default Home;
+export default Intro;
