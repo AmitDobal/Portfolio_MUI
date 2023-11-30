@@ -6,7 +6,6 @@ import {
   useTheme,
   Button,
   Stack,
-  Container,
 } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -52,6 +51,7 @@ const Home = () => {
         </Grid>
       </Grid>
     </Box>
+
   );
 };
 
