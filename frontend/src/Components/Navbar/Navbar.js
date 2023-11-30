@@ -1,4 +1,4 @@
-import { Box, CssBaseline } from "@mui/material";
+import { Box } from "@mui/material";
 import React, { useState } from "react";
 import NavDrawer from "./NavDrawer/NavDrawer";
 import NavAppBar from "./NavAppBar/NavAppBar";
@@ -21,7 +21,6 @@ const Navbar = () => {
 
   return (
     <Box sx={{ display: "flex" }}>
-      <CssBaseline />
       <NavAppBar navItems={navItems} handleDrawerToggle={handleDrawerToggle} />
       <NavDrawer
         navItems={navItems}

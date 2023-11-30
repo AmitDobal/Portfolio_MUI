@@ -11,7 +11,7 @@ import React from "react";
 
 const NavAppBar = ({ navItems, handleDrawerToggle }) => {
   return (
-    <AppBar component={"nav"} position="fixed" color="secondary">
+    <AppBar component={"nav"} position="fixed" color="primary">
       <Toolbar>
         <IconButton
           onClick={handleDrawerToggle}
