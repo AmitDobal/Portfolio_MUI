@@ -4,14 +4,16 @@ import Intro from "./Components/Intro/Intro";
 import { theme } from "./Themes/theme";
 import { Box, CssBaseline } from "@mui/material";
 import Navbar from "./Components/Navbar/Navbar"; 
+import About from "./Components/About/About";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Navbar />
-      <Box sx={{mt: 10, ml: 4, mr: 4}}>
+      <Box sx={{mt: 13, ml: 5, mr: 5}}>
         <Intro />
+        <About/>
       </Box>
     </ThemeProvider>
   );
