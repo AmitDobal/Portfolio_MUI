@@ -5,6 +5,7 @@ import { theme } from "./Themes/theme";
 import { Box, CssBaseline } from "@mui/material";
 import Navbar from "./Components/Navbar/Navbar"; 
 import About from "./Components/About/About";
+import Projects from "./Components/Projects/Projects";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Box sx={{mt: 13, ml: 5, mr: 5}}>
         <Intro />
         <About/>
+        <Projects/>
       </Box>
     </ThemeProvider>
   );

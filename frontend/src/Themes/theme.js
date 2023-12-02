@@ -15,3 +15,19 @@ export const theme = createTheme({
     transparent: 'rgba(49, 48, 77, 0.80)'
   },
 });
+
+
+
+
+
+
+
+/**
+ * 
+ * #451952
+ * #662549
+ * #AE445A
+ * #F39F5A
+ * #
+ * 
+ */

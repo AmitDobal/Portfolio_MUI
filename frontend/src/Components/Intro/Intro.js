@@ -14,7 +14,7 @@ const Intro = () => {
   const theme = useTheme();
   console.log(theme);
   return (
-    <Box className='Home' height="90vh" >
+    <Box display={"flex"} position={""} className="home" height="100vh">
       <Grid container>
         {/* LEFT SCREEN */}
         <Grid item xs={12} sm={6}>
@@ -43,17 +43,18 @@ const Intro = () => {
         </Grid>
 
         {/* RIGHT SCREEN */}
-        <Grid item xs={12} sm={6}>
+        <Grid position="inherit" item xs={12} sm={6}>
           <Box
+            display={"flex"}
+            bgcolor={"yellow"}
             sx={{
-              margin: 0,
               position: "relative",
             }}>
             <Image1 src={Vector1} alt="vector1" style={{ width: "83%" }} />
             <Image2 src={Vector2} alt="vector2" style={{ width: "75%" }} />
             <Image3 src={MyPic} alt="myPic" style={{ width: "65%" }} />
           </Box>
-          <Box sx={{ position: "relative" }}>
+          <Box display={"flex"} sx={{ position: "relative" }}>
             <BlurBox
               sx={{ background: "rgb(238 210 255)", top: "10", left: "280px" }}
             />

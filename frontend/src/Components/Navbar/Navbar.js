@@ -4,7 +4,7 @@ import NavDrawer from "./NavDrawer/NavDrawer";
 import NavAppBar from "./NavAppBar/NavAppBar";
 
 const drawerWidth = 240;
-const navItems = ["Home", "About", "Experience", "Projects", "Skills"];
+const navItems = ["home", "about", "experience", "projects", "skills"];
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
